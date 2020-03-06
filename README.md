@@ -1,2 +1,3 @@
 # react-stop-watch
-使用 React 编写的计时器
+
+使用 React 实现计时器
