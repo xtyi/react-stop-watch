@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+}
+
+.btn.left {
+  margin: 0 35px 0 0;
+}
+
+.btn.right {
+  margin: 0 0 0 35px;
+}
