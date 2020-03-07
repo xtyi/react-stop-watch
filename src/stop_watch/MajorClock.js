@@ -23,13 +23,13 @@ const ms2Time = milliseconds => {
   return result;
 };
 
-const MajorClock = ({ milliseconds = 0 }) => {
+const MajorClock = React.memo(({ milliseconds = 0 }) => {
   const style = {
     "font-family": "monospace"
   };
 
   return <h1 style={style}>{ms2Time(milliseconds)}</h1>;
-};
+});
 
 MajorClock.propTypes = {
   milliseconds: PropTypes.number.isRequired
